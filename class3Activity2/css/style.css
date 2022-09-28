@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+header {
+    color: silver;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+p {
+    color: blanchedalmond;
+}
+
+footer {
+    font-size: 20px;
+}
+
+ul {
+    font-weight: bold;
+}
