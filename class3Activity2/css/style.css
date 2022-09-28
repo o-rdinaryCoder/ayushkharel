@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 header {
-    color: silver;
+  color: silver;
 }
 
 h1 {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 p {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 footer {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 ul {
-    font-weight: bold;
+  font-weight: bold;
 }
