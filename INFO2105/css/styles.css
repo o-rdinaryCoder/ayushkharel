@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+  font-family: bestfont;
+  src: url(../fonts/newFont.ttf);
+}
+#top {
+  font-family: bestfont;
+}
+.text {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0px 20px;
+  background-color: white;
+  color: black;
+}
+
+.text2 {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0px 20px;
+  background-color: white;
+  color: black;
+}
+@media screen and (min-width: 800px) {
+  .text {
+  }
+  #top {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .text {
+    padding: 5px;
+    margin: 0px 5px;
+  }
+  #top {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #top {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .text {
+    padding: 40px;
+    margin: 0px 40px;
+    border: 0px;
+    background-color: yellow;
+  }
+}
