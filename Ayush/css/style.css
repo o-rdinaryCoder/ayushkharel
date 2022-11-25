@@ -198,7 +198,7 @@ figure {
   filter: grayscale(0);
 }
 .flex {
-  display: fkex;
+  display: flex;
   flex-direction: row;
 }
 
