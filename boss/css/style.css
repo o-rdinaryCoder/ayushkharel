@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+    font-size: 20px;
+}
+body {
+    font-family: arial;
+}
+img {
+	width: 340px;
+	height: 560;
+}
+nav {
+	text-align: center;
+}
+ul {
+  margin: 10px;
+  color: darkblue;
+  background-color: bisque;
+  font-weight: bold;
+}
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  display: inline-block;
+}
+li a {
+  list-style-type: square;
+  list-style-position: outside;
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-right: 1px solid brown;
+}
+li a:hover {
+  background-color: brown;
+}
